@@ -1,0 +1,8 @@
+<?php
+
+?>
+
+
+<?= $model->user ?>
+<br>
+<?= $model->desc ?>

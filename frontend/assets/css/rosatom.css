@@ -1,0 +1,444 @@
+.content-wrapper {
+    font-family: "RosatomWebRegular";
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 20px;
+}
+
+.sidebar, .sidebar-header, .login-box-body, p {
+    font-family: "RosatomWebRegular";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content-wrapper h1, h2, h3, th, label {
+    font-family: "RosatomWebRegular";
+    font-weight: 700;
+    font-style: normal;
+}
+
+.content-header {
+    display: none;
+}
+
+.content-wrapper > .content {
+    padding: 15px .5rem 0 .5rem;
+}
+
+/* Sidebar */
+.sidebar-light-rosatom .nav-sidebar .nav-treeview > .nav-item > .nav-link.active,
+.sidebar-light-rosatom .nav-sidebar .nav-treeview > .nav-item > .nav-link.active:focus,
+.sidebar-light-rosatom .nav-sidebar .nav-treeview > .nav-item > .nav-link.active:hover,
+.sidebar-light-rosatom .nav-sidebar > .nav-item.menu-open > .nav-link {
+    background-color: rgba(108, 172, 228, 0.5) !important;
+    color: #414042;
+    border-radius: 10px !important;
+}
+
+.sidebar-light-rosatom .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #6dacde !important;
+    color: #414042 !important;
+    border-radius: 10px !important;
+}
+
+.sidebar-light-rosatom .nav-sidebar .nav-item > .nav-link:not(.active):focus,
+.sidebar-light-rosatom .nav-sidebar .nav-item > .nav-link:not(.active):hover {
+    color: #414042;
+    border: solid 2px #6dacde;
+    border-radius: 10px !important;
+    background-color: transparent !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar-light-rosatom .nav-sidebar .nav-item .nav-link {
+    border: solid 2px transparent;
+    color: #414042;
+}
+
+.nav-sidebar {
+    margin-bottom: 200px;
+}
+
+/* NavBar */
+#top-navbar {
+    background: url("../images/tape.svg"), linear-gradient(to left, #16276f, #4595d2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100px;
+    border-bottom: none;
+}
+
+.profile-image {
+    height: 70px !important;
+    border: 1px solid #6dacde;
+    border-radius: 10px;
+}
+
+nav .navbar-nav .nav-item {
+    text-align: end;
+    align-self: flex-end;
+}
+
+.nav-tabs > .nav-item > a {
+    border-radius: 10px 10px 0 0;
+}
+
+.tab-content {
+    padding-top: 1rem;
+}
+
+/* Brand link */
+.sidebar-light-rosatom .brand-image-rosatom {
+    max-height: 100px;
+
+}
+
+.sidebar-light-rosatom .brand-text-rosatom {
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    padding-right: 30px !important;
+}
+
+.sidebar-collapse .wrapper .brand-link > .brand-image-rosatom {
+    height: 30px;
+}
+
+.sidebar-collapse .wrapper .brand-link {
+    height: 150px
+}
+
+.sidebar-collapse .wrapper .sidebar-header .brand-link > .brand-text-rosatom,
+.sidebar-collapse .wrapper .sidebar-header .brand-company {
+    display: none;
+}
+
+body:not(.sidebar-collapse ) .wrapper .brand-link {
+    font-family: "RosatomWebRegular";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #414042 !important;
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+/* Buttons */
+.btn-rosatom, .btn {
+    border-radius: 10px !important;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    width: 322px;
+    z-index: inherit;
+    padding: 10px 1rem;
+    padding-bottom: 2rem;
+}
+
+/* Login form */
+.login-page,
+.register-page {
+    height: auto;
+    background: #f2f2f2;
+}
+
+.login-box {
+    width: 640px;
+    margin: 3% auto;
+}
+
+.login-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #414042;
+    min-height: 700px;
+    min-width: 640px;
+    border-radius: 10px;
+}
+
+.login-box-body input {
+    width: 520px;
+    height: 60px;
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.login-box-body-reg3 input {
+    width: 485px;
+    height: 60px;
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.login-box-body .form-group input {
+    font-size: 22px;
+}
+
+.login-box-body .form-group .input-group-prepend > .input-group-text {
+    width: 60px;
+    font-size: 30px;
+}
+
+.login-box-body .form-group .input-group-prepend > .input-group-text {
+    border-radius: 10px 0 0 10px !important;
+    text-align: center !important;
+    background-color: #215e9e;
+    border: #215e9e solid;
+}
+
+.login-box-body .btn-login {
+    width: 204px!important;
+    height: 60px;
+    border-radius: 10px !important;
+    font-size: 30px;
+}
+
+.login-box-body-reg3 {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #414042;
+    min-height: 700px;
+    min-width: 640px;
+    border-radius: 10px;
+}
+
+.login-box-body-reg3 input {
+    width: 485px;
+    height: 60px;
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.login-box-body-reg3 .form-group input {
+    font-size: 22px;
+}
+
+.login-box-body-reg3 .form-group .input-group-prepend > .input-group-text {
+    width: 60px;
+    font-size: 30px;
+}
+
+.login-box-body-reg3 .form-group .input-group-prepend > .input-group-text {
+    border-radius: 10px 0 0 10px !important;
+    text-align: center !important;
+    background-color: #215e9e;
+    border: #215e9e solid;
+}
+
+.login-box-body-reg3 .btn-login {
+    width: 204px!important;
+    height: 60px;
+    border-radius: 10px !important;
+    font-size: 30px;
+}
+
+.login-logo {
+    padding: 50px;
+}
+
+#login-form,
+.prereg-form {
+    padding: 0 40px;
+}
+
+.login-logo > .brand-image-rosatom {
+    height: 146px;
+}
+
+.login-logo > .brand-text-rosatom, .login-box-body > p {
+    font-family: "RosatomWebRegular";
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.login-logo > .brand-text-rosatom, .login-box-body-reg3 > p {
+    font-family: "RosatomWebRegular";
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.login-box hr {
+    width: 520px;
+}
+
+/* Grid */
+.grid-view table,
+.grid-view table > thead th,
+.grid-view table > thead td,
+.grid-view table > tbody td {
+    border: none;
+}
+
+.grid-view {
+    padding: 10px 30px;
+    margin: 0 10px 10px 10px;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19) !important;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19) !important;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.grid-view table {
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 0 0.001rem;
+}
+
+.grid-view table > tbody tr td {
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    height: 60px;
+}
+
+.grid-view table > tbody tr:hover td {
+    border-bottom: 2px solid #6dacde;
+    border-top: 2px solid #6dacde;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.grid-view table > tbody tr td:first-child {
+    border-left: 2px solid transparent;
+}
+
+.grid-view table > tbody tr:hover td:first-child {
+    border-left: 2px solid #6dacde;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.grid-view table > tbody tr td:last-child {
+    border-right: 2px solid transparent;
+}
+
+.grid-view table > tbody tr:hover td:last-child {
+    border-right: 2px solid #6dacde;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.grid-view table > thead, .grid-view table > thead th > a {
+    background-color: #7f7f7f;
+    color: #fff !important;
+}
+
+.grid-view table > thead th > a:hover,
+.grid-view table > thead th > a:focus,
+.grid-view table > thead th > a:active {
+    color: #eeeeee !important;
+}
+
+/* скрываем dropdown-menu при переходе на другую строку */
+.grid-view table > tbody tr:not(:hover) .dropdown-menu {
+    display: none;
+}
+
+.grid-view .page-item.first > span, .input-group-prepend:first-child > span {
+    border-radius: 10px 0 0 10px !important;
+}
+
+.grid-view .page-item.last > a, .input-group-append:last-child > span {
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.grid-view table > tbody td:first-child, .grid-view table > tbody tr:hover td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.grid-view table > tbody td:last-child, .grid-view table > tbody tr:hover td:last-child {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.grid-view table > thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.grid-view table > thead td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.grid-view table > thead th:last-child {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Form control */
+input, button, select, optgroup, textarea, .select2, .input-group > span {
+    border-radius: 10px !important;
+}
+
+input.form-control.krajee-datepicker {
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.select2-container .select2-selection,
+.select2-container .select2-search--dropdown .select2-search__field,
+.select2-container .select2-selection--multiple .select2-selection__choice {
+    border-radius: 10px !important;
+}
+
+.dropdown-menu {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.modal-content {
+    padding: 10px;
+    border-radius: 10px !important;
+}
+
+.grid-toolbar .btn-group {
+    margin-bottom: 1rem;
+    margin-left: 4px;
+}
+
+.alert {
+    border-radius: 10px !important;
+}
+
+/* Error page */
+.error-page {
+    width: 80%;
+    margin: 80px 10% 0;
+}
+
+.error-page .error-content h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.top-navbar {
+    margin-bottom: 50px;
+}
+
+.modal-header {
+    display: none !important;
+}
+
+.modal-footer {
+    border-top: 0 !important;
+}
